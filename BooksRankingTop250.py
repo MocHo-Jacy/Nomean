@@ -9,7 +9,7 @@ def getHTML(url):
         r.encoding = r.apparent_encoding
         return r.text
     except:
-        print('爬取失败！')
+        print('Failed！')
 
 
 def sortHTML(demo):
